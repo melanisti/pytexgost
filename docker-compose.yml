@@ -3,7 +3,7 @@ version: '3.8'
 services:
   backend:
     build:
-      context: ./backend
+      dockerfile: ./Dockerfile
     volumes:
       - ./backend:/app
     entrypoint: bash -c "python3 parsers/abstract.py"
