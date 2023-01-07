@@ -1,5 +1,5 @@
 VERSION := "0.0.2"
-set windows-powershell := true 
+set shell := ["bash", "-c"]
 
 build:
     docker compose build
