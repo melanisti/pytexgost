@@ -10,4 +10,4 @@ start:
 
 run-tests:
     @echo "Tests are running..."
-    docker compose run --rm --entrypoint "bash -c 'pytest tests/'" backend
+    docker compose run --rm --entrypoint "bash -c 'pytest -v tests/'" backend
